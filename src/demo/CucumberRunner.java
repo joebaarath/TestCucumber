@@ -1,16 +1,21 @@
 package demo;
 
 /*
-
 import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
+
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"src/features/"}
+		monochrome = true,
+		features = {"src/features"},
+		glue = {"demo"}
 		)
+
 public class CucumberRunner {
+	
 
 }
 */
