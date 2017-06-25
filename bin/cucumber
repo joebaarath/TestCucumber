@@ -1,0 +1,5 @@
+rm src/demo/*.class
+javac -cp "bin/*" "src/demo/*.java"
+
+java -cp "bin/*;." cucumber.api.cli.Main --snippets camelcase -p pretty -g src/demo src/features
+
